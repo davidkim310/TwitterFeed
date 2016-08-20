@@ -1,0 +1,10 @@
+<div class="home">
+  <h1>Get Tweets!</h1>
+  <a ui-sref="2ndpage">Link to Page 2</a>
+  <form ng-submit="submit(proponscope)">
+    <input ng-model="proponscope" type="text" name="username" value="">
+  </form>
+  <ul ng-repeat="key in data">
+    <li>{{key.text}}</li>
+  </ul>
+</div>
